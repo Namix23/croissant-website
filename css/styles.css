@@ -3,7 +3,8 @@
   --box-shadow: 30px 20px 10px;
 }
 
-h1 {
+h1,
+p {
   text-align: center;
 }
 
@@ -21,7 +22,9 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-.contact-link {
+.contact-link,
+.home-link,
+.photo-link {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
