@@ -1,5 +1,5 @@
 :root {
-  --primary-color: ;
+  --primary-color: #d5b784;
   --box-shadow: 30px 20px 10px;
 }
 
@@ -9,8 +9,8 @@ p {
 }
 
 body {
-  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   max-width: 800px;
+  margin: auto;
 }
 
 h1 {
@@ -26,8 +26,12 @@ img {
 .home-link,
 .photo-link {
   margin: 20px;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
+  background: var(--primary-color);
+}
+
+a:hover {
+  color: white;
 }
